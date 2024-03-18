@@ -1,0 +1,101 @@
+/*Main Page*/
+body{
+    background-color: #fff;
+}
+.title{
+    background-color: #ccec87;
+    text-align: center;
+    font-size: larger;
+    color: #000;
+    padding: 10px;
+    border: 1px solid black;
+}
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 80px;
+    margin: 100px 190px;
+    background-color: #ccec87;
+    max-width: 960px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.items img{
+    height: 200px;
+    width: 280px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+.items img:hover, h3:hover{
+    transform: scale(1.1);
+}
+.items a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Cereal Page*/
+.container-1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 80px;
+    margin: 100px 190px;
+    background-color: #ccec87;
+    max-width: 960px;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+.item img{
+    display: inline-block;
+    margin: 0 auto;
+}
+.image img{
+    height: 200px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+.image img:hover, h3:hover{
+    transform: scale(1.1);
+}
+.image h3{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+.table {
+    display: table;
+    width: 100%;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #000;
+}
+.header {
+    font-weight: bold;
+    background-color: #71a10a;
+}
